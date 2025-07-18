@@ -18,7 +18,7 @@ env:
   
 jobs:
     build:
-        runs-on: ubuntu-latest  # Changed from self-hosted runner to GitHub-hosted
+        runs-on: my-localpc  # Changed from self-hosted runner to GitHub-hosted
         timeout-minutes: 30     # Add timeout to prevent hanging
         steps:
             - name: checkout code
